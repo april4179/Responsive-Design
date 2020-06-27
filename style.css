@@ -1,1 +1,43 @@
+/* Mobile First!!
+- Screen sizes 320-550px
+ */
+img {
+  width: 100%;
+}
 
+header {
+  border: 7px solid blue;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic_container {
+  width: 30%;
+  margin: 5px;
+}
+
+/* Desktop styles
+- Screen sizes 550px and up
+*/
+
+@media (min-width: 550px) {
+  /* styles go here */
+  body {
+    background-color: aliceblue;
+    display: flex;
+  }
+  header {
+    height: 50%;
+    margin: 10px;
+    padding: 10px;
+  }
+  main {
+    margin: 20px;
+  }
+}
